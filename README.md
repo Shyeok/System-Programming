@@ -17,3 +17,19 @@ SIC/XE의 assembly program source 파일을 입력 받아서 object파일을 생
 + 프로젝트 설명
 
 프로젝트 #2 에서 구현된 assemble 명령을 통해서 생성된 object 파일을 link시켜 메모리에 올리는 일을 수행한다. Breakpoint 설정이 가능하다.
+
+## Web crawling(Project 4 ~ 6)
+### Project 4
++ 프로젝트 설명
+
+Python과 Python 라이브러리(BeautifulSoup4, Requests)를 사용하여 웹사이트의 모든 하이퍼링크와 하이퍼링크를 재귀적으로 방문하여 방문한 주소의 목록과 방문한 모든 페이지의 text를 수집한다.
+
+### Project 5
++ 프로젝트 설명
+
+대용량 코퍼스로부터 Bigram언어모델을 Python과 AWS Elastic MapReduce 시스템을 사용하여 생성한다.
+
+### Project 6
++ 프로젝트 설명
+
+대용량 Bigram 언어 모델을 Python과 AWS Dynamo DB 시스템을 이용한 분산데이터 베이스를 통해 빠르게 검색한다.
