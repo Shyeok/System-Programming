@@ -38,7 +38,7 @@ def visiting(url, visited):
                 if flag == 0 and r.ok == True:                       # url is correct
                     visiting(nurl,visited)
 
-rootpage = "http://cspro.sogang.ac.kr/~gr120150253/index.html"
+rootpage = ""
 visiting(rootpage, visited)
 outurl = open('URL.txt','w')
 n = len(visited)
